@@ -64,7 +64,7 @@ class Ciągi():
         print("Suma ciągu = ", suma)
     def policz_elementy(self):
         if self.a1 != 0 and self.r != 0:
-            print("Liczba elementów = ", self.n)
+            print("Liczba elementów ciągu = ", self.n)
 ciągi = Ciągi()
 ciągi.pobierz_elementy()
 ciągi.wyswietl_dane()
