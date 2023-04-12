@@ -41,4 +41,4 @@ def zad5():
     print(suma+n)
     with open("zadanie5.txt","w") as plik:
         plik.write(str(suma+n))
-zad5()
+#zad5()

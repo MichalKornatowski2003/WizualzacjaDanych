@@ -17,9 +17,7 @@ def zad2(lista1, lista2):
     if len(lista1) != len(lista2):
         return ValueError("Listy nie mają tej samej wartośćci!!!")
     else:
-        lista3 = []
-        for i in range(len(lista1)):
-            lista3.append(lista1[i] + lista2[i])
+        lista3 = [lista1[i] + lista2[i] for i in range(len(lista1))]
     return lista3
 print(zad2([2, 5, 4, 6, 7],[4, 2, 3, 1, 5]))
 def zad3():
